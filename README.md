@@ -2,8 +2,16 @@
 
 Basic web scraper coded in Python with Beautiful Soup 2024
 
+- Scrape a site using Beautiful Soup
+- Cleanse the data for Pandas usage
+- Plot the data using MatPlotLib
+
 Output:
-TBA
+Main page of Y Combinator is scrapped, and we visualize whether the first page articles are actually getting hits or not depending on their upvotes. The bar chart produced from the scraped data gives us a quick visual overview of how effective the main page is or if the articles are duds.
+
+![app_image](app_image.png)
+
+Note: As the article names can be too long to place in the x-axis, we're just using the DataFrame index. The articles from the main page (top to bottom) are mapped from left to right. Left being the top most article and right being the bottom most article
 
 ## Requirements 📜
 
